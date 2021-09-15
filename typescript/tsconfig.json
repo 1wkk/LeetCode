@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "target": "ES2020"
+  }
+}
