@@ -15,6 +15,7 @@ a = list(map(int, input().split()))
 
 m = 0
 
+# 书
 # for i in range(n):
 #     for j in range(i + 1, n):
 #         for k in range(j + 1, n):
@@ -24,6 +25,8 @@ m = 0
 #             if d > c:
 #                 m = max(m, b)
 
+
+# better
 a.sort()
 
 for i in range(n):
