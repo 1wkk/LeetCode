@@ -10,6 +10,10 @@ n, a, k = 0, [], 0
 
 
 def dfs(i, sum):
+    # 提前剪枝
+    if sum > k:
+        return False
+
     if i == n:
         return sum == k
     if dfs(i + 1, sum):
