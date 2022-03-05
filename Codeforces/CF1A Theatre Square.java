@@ -16,3 +16,5 @@ public class CodeForces {
         System.out.println(ans1 * ans2);
     }
 }
+
+// Archived
