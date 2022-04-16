@@ -4,6 +4,7 @@ import (
 	"sort"
 )
 
+// https://leetcode-cn.com/problems/maximum-total-beauty-of-the-gardens/solution/hua-yuan-de-zui-da-zong-mei-li-zhi-by-le-18d8/
 func maximumBeauty(flowers []int, nf int64, target int, full int, partial int) int64 {
 	n := len(flowers)
 	for i, v := range flowers {
