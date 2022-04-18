@@ -2,7 +2,6 @@ import java.io.BufferedInputStream;
 import java.util.Scanner;
 
 /**
- * @author Ryan Moyo
  * @date 2020/7/26 15:34
  */
 public class CodeForces {
