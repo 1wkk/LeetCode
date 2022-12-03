@@ -1,0 +1,39 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@datastructures-js/priority-queue': ^6.1.4
+  '@datastructures-js/queue': ^4.2.3
+  '@types/lodash': ^4.14.191
+  lodash: ^4.17.21
+
+dependencies:
+  '@datastructures-js/priority-queue': 6.1.4
+  '@datastructures-js/queue': 4.2.3
+  lodash: 4.17.21
+
+devDependencies:
+  '@types/lodash': 4.14.191
+
+packages:
+
+  /@datastructures-js/heap/4.1.2:
+    resolution: {integrity: sha512-Dl6MPPVXxzWsSQxIaV0sOpAx/B8r7RYUO5/GWe7GhG9v9P4QfZ1cgPSq+SoF0QJFhu9G9TmtPfRLHPWzL73GpQ==}
+    dev: false
+
+  /@datastructures-js/priority-queue/6.1.4:
+    resolution: {integrity: sha512-bYjnSSxrLjfrlnKeUID7sEzHbbtb8ENLhT/jQ4VoKTDUrJfupHr7cuaUtSFEQS1AsRCDQSaTgaNwmF8FUs9dwQ==}
+    dependencies:
+      '@datastructures-js/heap': 4.1.2
+    dev: false
+
+  /@datastructures-js/queue/4.2.3:
+    resolution: {integrity: sha512-GWVMorC/xi2V2ta+Z/CPgPGHL2ZJozcj48g7y2nIX5GIGZGRrbShSHgvMViJwHJurUzJYOdIdRZnWDRrROFwJA==}
+    dev: false
+
+  /@types/lodash/4.14.191:
+    resolution: {integrity: sha512-BdZ5BCCvho3EIXw6wUCXHe7rS53AIDPLE+JzwgT+OsJk53oBfbSmZZ7CX4VaRoN78N+TJpFi9QPlfIVNmJYWxQ==}
+    dev: true
+
+  /lodash/4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: false

@@ -4,5 +4,6 @@
     "strictBindCallApply": true,
     "strictFunctionTypes": true,
     "target": "ES2020"
-  }
+  },
+  "include": ["packages"]
 }
