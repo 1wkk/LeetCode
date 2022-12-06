@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "alwaysStrict": true,
+    "moduleResolution": "node",
     "strictBindCallApply": true,
     "strictFunctionTypes": true,
     "target": "ES2020"
