@@ -6,7 +6,7 @@ function closestCost(
   let a = Infinity
 
   const dfs = (c, i) => {
-    // 剪枝，但是不
+    // 剪枝，但是不剪左边
     if (c - t > abs(a - t)) return
 
     if (abs(c - t) < abs(a - t)) {
